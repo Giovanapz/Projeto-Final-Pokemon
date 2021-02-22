@@ -1,5 +1,5 @@
 /*
-	Síntese 
+	SÃ­ntese 
 	Objetivo: Projeto Final - Tema: Pokemon
 	Nome: Giovana Pinho de Souza  e  Luiz Gustavo Pereira de Sousa
 */
@@ -18,7 +18,7 @@
 #define ciano "\x1b[36m"
 #define reset "\x1b[0m"
 
-//Função para impressão do texto em determinadas coordenadas da tela
+//FunÃ§Ã£o para impressÃ£o do texto em determinadas coordenadas da tela
 void gotoxy(int x, int y) {
 	COORD coord;
 	coord.X = x;
@@ -197,7 +197,7 @@ int main (void) {
 									//quantPoke++;
 									//printf("%d",quantPoke);
 									system("pause");
-								} // adicionar um limite de 6 pokemons onde após eles todos iriam para o pokedex e só poderiam ser trocados na mochila
+								} // adicionar um limite de 6 pokemons onde apÃ³s eles todos iriam para o pokedex e sÃ³ poderiam ser trocados na mochila
 							} while(posicao > 0);
 
 
@@ -576,7 +576,7 @@ int main (void) {
 									//quantPoke++;
 									//printf("%d",quantPoke);
 									system("pause");
-								} // adicionar um limite de 6 pokemons onde após eles todos iriam para o pokedex e só poderiam ser trocados na mochila
+								} // adicionar um limite de 6 pokemons onde apÃ³s eles todos iriam para o pokedex e sÃ³ poderiam ser trocados na mochila
 							} while(posicao > 0);
 
 
@@ -1183,7 +1183,7 @@ int main (void) {
 	void gravarPoke(struct tPokemon poke, int registro, FILE *arq) { // cadastrar pokemons
 		if(registro <= 0) {
 			poke.transferido = ' ';
-			fseek(arq, 0, SEEK_END); // ponteiro, quantas vezes, seek(alguma coisa) é final, inicio ou meio
+			fseek(arq, 0, SEEK_END); // ponteiro, quantas vezes, seek(alguma coisa) Ã© final, inicio ou meio
 		} else {
 			fseek(arq, (registro-1)*sizeof(struct tPokemon), SEEK_SET);
 		}
@@ -1192,7 +1192,7 @@ int main (void) {
 	
 	void gravarTreinador(struct tCarteirinha carte, int registro, FILE *arq){
 		if(registro <= 0) {
-			fseek(arq, 0, SEEK_END); // ponteiro, quantas vezes, seek(alguma coisa) é final, inicio ou meio
+			fseek(arq, 0, SEEK_END); // ponteiro, quantas vezes, seek(alguma coisa) Ã© final, inicio ou meio
 		} else {
 			fseek(arq, (registro-1)*sizeof(struct tCarteirinha), SEEK_SET);
 		}

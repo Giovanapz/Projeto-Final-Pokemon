@@ -1,0 +1,5 @@
+  
+1. Novo Jogo
+2. Continuar
+
+Escolha sua opcao: 

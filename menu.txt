@@ -1,0 +1,8 @@
+  ** MENU **
+1. Incluir Pokemon
+2. Capturar
+3. Mochila
+4. Centro Pokemon
+0. Sair
+
+Escolha sua opcao: 

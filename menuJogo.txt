@@ -1,0 +1,6 @@
+  
+1. Continuar
+2. Novo Jogo
+0. Sair
+
+Escolha sua opcao: 
